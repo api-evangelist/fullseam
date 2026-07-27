@@ -1,7 +1,31 @@
 aid: fullseam
 name: Fullseam
-description: Fullseam is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  FullSeam builds AI agents for corporate accounting and finance operations
+  teams, automating the manual work that happens outside traditional accounting
+  software. Its agents handle accounts receivable (following up on payments,
+  generating requested documentation, and entering invoices into customer AP
+  portals), accounts payable (extracting invoices from multiple sources,
+  matching them against purchase orders and contracts, chasing vendors for
+  missing information, and categorizing expenses before posting to the general
+  ledger), cash application, and reconciliation. FullSeam integrates with
+  existing systems including QuickBooks, Xero, NetSuite, Sage, Bill, Stripe,
+  HubSpot, Salesforce, and PandaDoc rather than requiring a platform migration,
+  flagging exceptions with full context for human review and maintaining audit
+  logs for compliance. Founded by the team behind TaxProper (acquired by
+  Opendoor), FullSeam is a Y Combinator Winter 2026 company.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://fullseam.com/static/frontend/fullseam-icon.svg
 url: https://raw.githubusercontent.com/api-evangelist/fullseam/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +35,54 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Accounting
+- Finance
+- FinOps
+- AI Agents
+- Accounts Payable
+- Accounts Receivable
+- Reconciliation
+- Cash Application
+- Automation
+- Fintech
 apis: []
+common:
+- type: Website
+  url: https://fullseam.com
+- type: About
+  url: https://fullseam.com/about
+- type: CaseStudies
+  url: https://fullseam.com/case-studies
+- type: Login
+  url: https://app.fullseam.com
+- type: Support
+  url: https://fullseam.com/book
+- type: PrivacyPolicy
+  url: https://fullseam.com/privacy
+- type: TermsOfService
+  url: https://fullseam.com/terms
+- type: GitHubOrganization
+  url: https://github.com/FullSeam
+- type: Security
+  url: https://fullseam.com/security
+- type: Compliance
+  url: https://fullseam.com/security
+- type: TrustCenter
+  url: security/fullseam-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/fullseam-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/fullseam-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

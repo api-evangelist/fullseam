@@ -1,0 +1,29 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://fullseam.com/security
+url: https://fullseam.com/security
+certifications:
+- name: SOC 2 Type 1
+  status: achieved
+  scope: AICPA Trust Services Criteria (Security, Confidentiality, Availability)
+- name: SOC 2 Type 2
+  status: in-progress
+  scope: continuous controls audit underway
+- name: HIPAA
+  status: in-progress
+  scope: administrative, physical, and technical safeguards aligned with the HIPAA Security Rule
+posture:
+  encryption_in_transit: TLS 1.2+ on every connection
+  encryption_at_rest: customer data, databases, and backups encrypted at rest
+  secrets: managed in a vault, not stored in source code
+  infrastructure: isolated AWS VPC with private application and data tiers, WAF, no public database access
+  data_residency: production data retained in North America
+  vendor_materials: SOC 2 reports, security questionnaires, and DPAs available under NDA on request
+evidence:
+- source: https://fullseam.com/security
+  keywords:
+  - soc 2
+  - soc2
+  - hipaa
+  - trust services criteria
