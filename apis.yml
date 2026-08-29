@@ -14,6 +14,17 @@ description: >-
   flagging exceptions with full context for human review and maintaining audit
   logs for compliance. Founded by the team behind TaxProper (acquired by
   Opendoor), FullSeam is a Y Combinator Winter 2026 company.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
