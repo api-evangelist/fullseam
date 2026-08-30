@@ -61,6 +61,11 @@ tags:
 - Fintech
 apis: []
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/opendoor/
+  name: Opendoor
+  x-relationship: acquired
+  x-evidence: "Founded by the team behind TaxProper (acquired by Opendoor), FullSeam is a Y Combinator Winter 2026 company."
 - type: Website
   url: https://fullseam.com
 - type: About
