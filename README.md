@@ -64,6 +64,87 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Fullseam is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+FullSeam builds AI agents for corporate accounting and finance operations teams, automating the manual work that happens outside traditional accounting software. Its agents handle accounts receivable (following up on payments, generating requested documentation, and entering invoices into customer AP portals), accounts payable (extracting invoices from multiple sources, matching them against purchase orders and contracts, chasing vendors for missing information, and categorizing expenses before posting to the general ledger), cash application, and reconciliation. FullSeam integrates with existing systems including QuickBooks, Xero, NetSuite, Sage, Bill, Stripe, HubSpot, Salesforce, and PandaDoc rather than requiring a platform migration, flagging exceptions with full context for human review and maintaining audit logs for compliance. Founded by the team behind TaxProper (acquired by Opendoor), FullSeam is a Y Combinator Winter 2026 company.
 
-Backed by: y-combinator
+**Areas:** Company · Accounting · Finance · FinOps · AI Agents · Accounts Payable · Accounts Receivable · Reconciliation · Cash Application · Automation · Fintech
+
+## Fullseam on APIs.io
+
+Everything profiled for Fullseam is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/fullseam/](https://apis.io/providers/fullseam/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Fullseam Domain Security](https://apis.io/security/fullseam/fullseam-domain-security/)
+- [Fullseam Trust Center](https://apis.io/security/fullseam/fullseam-trust-center/)
+- [Fullseam Vulnerability Disclosure](https://apis.io/security/fullseam/fullseam-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://fullseam.com)
+- [Support](https://fullseam.com/book)
+- [Security](https://fullseam.com/security)
+- [Compliance](https://fullseam.com/security)
+- [Terms of service](https://fullseam.com/terms)
+- [Privacy policy](https://fullseam.com/privacy)
+- [GitHub](https://github.com/FullSeam)
+
+## API Evangelist rating
+
+**Kin Score 17.6** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 4.8 |
+| Access clarity | 43.4 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/fullseam/](https://apis.io/providers/fullseam/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Fullseam: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/fullseam/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
